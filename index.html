@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="upper">
+        <div class="search">
+            <input id="input" type="text" placeholder="Enter city name..">
+            <div id="click">
+                <span class="material-symbols-outlined">search</span>
+            </div>
+        </div>
+
+
+        <section class="mainSec">
+            <div class="weather secDiv">
+                <div class="day">
+                    <div class="location_city">
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                        <p>location</p>
+                    </div>
+                    <h2>Teusday</h2>
+                    <p>date</p>
+                </div>
+                <div class="weatherImg">
+                    <img id="tempImg" src="./images/clear.png" alt="">
+                </div>
+                <div class="tempMain">
+                    
+                </div>
+                <div class="clear">
+                    Sunny
+                </div>
+            </div>
+
+            <div class="forcast secDiv">
+
+                <div class="humidity">
+                    <h2>- Humidity</h2>
+                    <div class="humi">
+                        <div class="imgDivs">
+                            <img src="./images/humidity.png" class="forImg" alt="">
+                        </div>
+                        <div class="value">
+                            78 %
+                        </div>
+                    </div>
+                </div>
+                <div class="windSpeed">
+                    <h2> - Wind</h2>
+                    <div class="wind">
+                        <div class="imgDivs">
+                            <img src="./images/wind.png" class="forImg" alt="">
+                        </div>
+                        <div class="value">
+                            90 km/h
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr />
+                <div class="forcasts forcastDivs">
+                    <div class="forC"></div>
+                    <div class="forC"></div>
+                    <div class="forC"></div>
+                    <div class="forC"></div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
+<script src="./script.js"></script>
