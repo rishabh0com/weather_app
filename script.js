@@ -29,7 +29,7 @@ let humidity, windSpeed, temprature,  weather;
 async function getTemprature() {
     console.log("Time",new Date().getHours())
     try {
-        let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIkey}`);
+        let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIkey}`);
         let data = await response.json()
         console.log(data)
         weather = data.weather[0].main
@@ -52,7 +52,7 @@ getTemprature()
 async function getForcast() {
     // console.log(forcastDivs)
     try {
-        let res = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${APIkey}`);
+        let res = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${APIkey}`);
         let data = await res.json();
         // console.log(data)
        let forDays = data.list.filter((ele, index) => index % 8 == 0);
