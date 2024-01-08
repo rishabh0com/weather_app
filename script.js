@@ -1,12 +1,17 @@
+let APIkey = "aa2338a405271c2dbb7943eb7c748def";
 let forcastDivs = document.querySelectorAll(".forC")
 // catch the elements
 let input = document.querySelector("#input")
 let clickSearch = document.querySelector("#click")
+const maindiv = document.querySelector("body")
 var city =  "Delhi"
 clickSearch.addEventListener("click",()=>{
     console.log(input.value)
     city = input.value
     cityy(city)
+    maindiv.style.backgroundColor = "#08AEEA"
+    maindiv.style.backgroundImage = "linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)"
+    
     getTemprature()
     getForcast()
 })
@@ -14,10 +19,9 @@ getTemprature()
 
 console.log("input",input)
 //
-let APIkey = "aa2338a405271c2dbb7943eb7c748def";
 
 // set value in innerHTML
-document.querySelector(".day>p").textContent = `${new Date().getDate()}-${new Date().getMonth()+1}-${new Date().getFullYear()}`
+document.querySelector(".day>p").textContent = `${("0" + new Date().getDate()).slice(-2)}-${("0" + new Date().getMonth()+1).slice(-2)}-${new Date().getFullYear()}`
 document.querySelector(".location_city > p").textContent =city
 function cityy(city){
     document.querySelector(".location_city > p").textContent =city
@@ -42,7 +46,10 @@ async function getTemprature() {
         humidity = data.main.humidity;
         document.querySelector(".humi > .value").textContent = humidity + " %"
     } catch (error) {
-        document.querySelector(".location_city > p").textContent = "City Not Found.. Try again!"
+       document.getElementById("location").textContent = `Location Not Found !`
+        document.querySelector("#location").style.color = "#ffc300"
+        document.querySelector(".material-symbols-outlined").style.color = "#c44900"
+         
         console.log(error)
     }
 }
@@ -54,9 +61,10 @@ async function getForcast() {
     try {
         let res = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${APIkey}`);
         let data = await res.json();
-        // console.log(data)
+        console.log(data)
        let forDays = data.list.filter((ele, index) => index % 8 == 0);
     //    console.log(forDays)
+
        for(let i = 0; i < 4; i++){
         let wDate = new Date(forDays[i].dt * 1000).getDay()
         let day =  getDay(wDate)
