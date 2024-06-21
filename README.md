@@ -26,7 +26,6 @@ List the main features of your project. For example:
 Include screenshots or a link to a live demo of your project. For example:
 [Live](https://weather-forecast-app-0723.netlify.app/)
 ![Demo Screenshot](![image](https://github.com/rishabh0com/weather_app/assets/118434225/d4b3db90-e442-417b-a70f-b160f2846e18)
-)
 
 You can check out the live demo [here](http://your-live-demo-link.com).
 
@@ -45,7 +44,8 @@ Provide a step-by-step guide on how to set up the project locally. For example:
    git clone [https://github.com/rishabh0com/weather_app.git]
 
 ##Project Structure
-weather_app
+<pre>
+   weather_app
 ├── images/    
 │   └── ...  
 ├── README.md
@@ -53,6 +53,7 @@ weather_app
 ├── script.js
 ├── style.css
 └── README.md
+</pre>
 
 ##Contact
 [Visit my protfolio:](https://rishabh-tripathi.vercel.app/)
