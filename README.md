@@ -31,6 +31,7 @@ Include screenshots or a link to a live demo of your project. For example:
 
 You can check out the live demo [here](https://weather-forecast-app-0723.netlify.app/).
 <br>
+
 ## Technologies Used
 Mention the technologies and frameworks you used in your project. For example:
 - HTML
@@ -38,8 +39,10 @@ Mention the technologies and frameworks you used in your project. For example:
 - JavaScript
 - API integrations
 <br>
+
 ## Installation
-Provide a step-by-step guide on how to set up the project locally. For example:
+
+<i>Provide a step-by-step guide on how to set up the project locally. For example:</i>
 
 1. Clone the repository:
    ```bash
