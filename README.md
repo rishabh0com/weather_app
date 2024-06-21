@@ -13,8 +13,6 @@
 
 ## Introduction
 <pre>
-Provide a brief description of your project, its purpose, and the problem it aims to solve. 
-For example:
 This project is a Weather App that provides live weather updates and a three-day forecast. 
 It aims to help users plan their activities by providing accurate weather information in a user-friendly interface.
 </pre>
