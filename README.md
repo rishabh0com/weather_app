@@ -1,7 +1,7 @@
-# Project Title
+# Weather Forecast App
 
-![Project Logo]([path_to_logo.png](https://rishabh-tripathi.vercel.app/assets/logo-CNRgfHXq.png))
 <br>
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -27,11 +27,11 @@ List the main features of your project. For example:
 
 ## Demo
 Include screenshots or a link to a live demo of your project. For example:
-[Live](https://weather-forecast-app-0723.netlify.app/)
 ![Demo Screenshot](![image](https://github.com/rishabh0com/weather_app/assets/118434225/d4b3db90-e442-417b-a70f-b160f2846e18)
 
 <br>
-You can check out the live demo [here](http://your-live-demo-link.com).
+
+You can check out the live demo [here](https://weather-forecast-app-0723.netlify.app/).
 <br>
 ## Technologies Used
 Mention the technologies and frameworks you used in your project. For example:
