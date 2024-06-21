@@ -10,7 +10,7 @@
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Contact](#contact)
-<br>
+
 ## Introduction
 <pre>
 Provide a brief description of your project, its purpose, and the problem it aims to solve. 
@@ -18,13 +18,13 @@ For example:
 This project is a Weather App that provides live weather updates and a three-day forecast. 
 It aims to help users plan their activities by providing accurate weather information in a user-friendly interface.
 </pre>
-<br>
+
 ## Features
 List the main features of your project. For example:
 - Live weather updates
 - Three-day weather forecast
 - User authentication
-<br>
+
 ## Demo
 Include screenshots or a link to a live demo of your project. For example:
 [Live](https://weather-forecast-app-0723.netlify.app/)
@@ -47,6 +47,7 @@ Provide a step-by-step guide on how to set up the project locally. For example:
    ```bash
    git clone [https://github.com/rishabh0com/weather_app.git]
 <br>
+
 ##Project Structure
 <pre>
    weather_app
@@ -60,6 +61,8 @@ Provide a step-by-step guide on how to set up the project locally. For example:
 </pre>
 
 <br>
+
 ##Contact
 <br>
+
 [Visit my protfolio:](https://rishabh-tripathi.vercel.app/)
