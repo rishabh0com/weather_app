@@ -65,4 +65,4 @@ Provide a step-by-step guide on how to set up the project locally. For example:
 ##Contact
 <br>
 
-[Visit my protfolio:](https://rishabh-tripathi.vercel.app/)
+<img src="https://rishabh-tripathi.vercel.app/assets/logo-CNRgfHXq.png" >[Visit my protfolio:](https://rishabh-tripathi.vercel.app/)
