@@ -45,7 +45,7 @@ Provide a step-by-step guide on how to set up the project locally. For example:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/rishabh0com/weather_app.git]
+   git clone https://github.com/rishabh0com/weather_app.git
 <br>
 
 ## Project Structure
