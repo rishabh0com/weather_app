@@ -58,8 +58,7 @@ Mention the technologies and frameworks you used in your project. For example:
 ├── README.md
 ├── index.html
 ├── script.js
-├── style.css
-└── README.md
+└── style.css
 </pre>
 
 <br>
