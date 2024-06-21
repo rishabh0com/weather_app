@@ -8,10 +8,7 @@
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -24,12 +21,12 @@ List the main features of your project. For example:
 - Live weather updates
 - Three-day weather forecast
 - User authentication
-- Dynamic cart page for eCommerce
 
 ## Demo
 Include screenshots or a link to a live demo of your project. For example:
-
-![Demo Screenshot](path_to_screenshot.png)
+[Live](https://weather-forecast-app-0723.netlify.app/)
+![Demo Screenshot](![image](https://github.com/rishabh0com/weather_app/assets/118434225/d4b3db90-e442-417b-a70f-b160f2846e18)
+)
 
 You can check out the live demo [here](http://your-live-demo-link.com).
 
@@ -38,7 +35,6 @@ Mention the technologies and frameworks you used in your project. For example:
 - HTML
 - CSS
 - JavaScript
-- MERN stack (MongoDB, Express.js, React, Node.js)
 - API integrations
 
 ## Installation
@@ -46,4 +42,17 @@ Provide a step-by-step guide on how to set up the project locally. For example:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone [https://github.com/rishabh0com/weather_app.git]
+
+##Project Structure
+weather_app
+├── images/    
+│   └── ...  
+├── README.md
+├── index.html
+├── script.js
+├── style.css
+└── README.md
+
+##Contact
+[Visit my protfolio:](https://rishabh-tripathi.vercel.app/)
