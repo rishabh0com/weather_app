@@ -48,7 +48,8 @@ Provide a step-by-step guide on how to set up the project locally. For example:
    git clone [https://github.com/rishabh0com/weather_app.git]
 <br>
 
-##Project Structure
+## Project Structure
+
 <pre>
    weather_app
 ├── images/    
@@ -62,7 +63,7 @@ Provide a step-by-step guide on how to set up the project locally. For example:
 
 <br>
 
-##Contact
+## Contact
 <br>
 
 <img src="https://rishabh-tripathi.vercel.app/assets/logo-CNRgfHXq.png" width="40px" >  <i> [Visit my protfolio:](https://rishabh-tripathi.vercel.app/) </i>
